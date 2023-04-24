@@ -20,3 +20,10 @@ PrecipDF$STATION<-as.factor(PrecipDF$STATION)
 PrecipAveragePerDay <- PrecipDF %>%
   #group_by(STATION) %>%
   summarize(MeanPrecip = mean(PRCP))
+
+
+
+#Simulate historical precipitation regime based on precipitation amount per day from Jan 1 1950 to
+#December 31st, 1990
+
+EI'm'
